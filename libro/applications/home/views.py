@@ -7,6 +7,7 @@ from django.views.generic import (
 
 
 class IndexView(TemplateView):
-    print('-****************************************** Hola home *******************************************')
+    template_name = "home/index.html"
+    
 
 
